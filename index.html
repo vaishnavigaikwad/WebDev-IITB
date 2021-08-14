@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!----------------------------------------------alert------------------------------------->
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>
+            <marquee direction="left"> Hurry up family grab the exclusive offers now!! *if vaccinated get 50% off
+                on your current
+                order*
+                *Free home delivery on order more than 2kg!*
+                *Flat 30% off on event planning budgets!*
+                *Get mega discounts on gifting orders*
+            </marquee>
+        </strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-------------------------------------------Navbar------------------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid " style="margin: 0% 10%;">
+            <a class="navbar-brand" href="#">
+                <img src="AllTheImages/logoNav.jpg" alt="" width="20" height="20" class="d-inline-block align-text-top">
+                The Cravoury
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active p-2" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="aboutus.html">AboutUs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="login.html">Login</a>
+                        </li><i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="#"><i class="fa fa-shopping-cart  data-bs-toggle=" tooltip
+                                    data-bs-placement="right" title="My cart"
+                                    style=" font-size:24px ;color:white"></i></a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--------------------------------------------------carousal---------------------------------->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="AllTheImages/try.jpg" class="d-block w-100 bg_img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="text-dark">Give it a try!</h3>
+                    <p>Place your first order and get exclusive offers.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="AllTheImages/Dine-in.jpg" class="d-block w-100 bg_img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="text-dark">Dine-in</h3>
+                    <p>Sanitized tables|Hygenic workstations|100% staff vaccination
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="AllTheImages/support.jpg" class="d-block w-100 bg_img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3 class="text-dark">#SupportHomeBakers</h3>
+                    <p>Be a part of our organization where we have hired homebakers who lost thier
+                        jobs due to pandemic.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-----------------------------------------Graditude card--------------------------->
+
+    <div class="card mb-5 mt-5 mx-auto shadow-lg p-3 mb-5 bg-body rounded" style="max-width: 50%;">
+        <div class="row g-3">
+            <div class="col-md-6 p-3 ">
+                <img src="AllTheImages/gratitude.jpg" class="img-fluid rounded-start " alt="...">
+            </div>
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h5 class="card-title">#Gratitude</h5>
+                    <p class="card-text">The 2020 pandemic was worst for many of us,but tough times always bring out the
+                        best from you.Started as a home baker baking for my family,and this passion has now taken
+                        shape of a shop with more than 20 bakers working together for making a small difference in your
+                        life.We welcome you all to our family.THANK-YOU for choosing us.</p>
+                    <p class="card-text"><small class="text-muted">Founder, Ms.Vaishnavi Gaikwad</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------------Flex----------------------------------------------->
+
+    <div class="card mb-3  mt-3 mx-auto shadow-lg p-2 mb-5 bg-body rounded " style="opacity: 0.5;">
+        <h4 class="text-center" style="color: black;">Layered Wedding cakes</h4>
+    </div>
+    <div class="d-flex flex-row bd-highlight mb-3 flex-wrap">
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex1.jpg" alt="">
+            <h6 class="text-muted">TIER FOUR ORANGE CHIFFON CAKE</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>4,500</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex2.jpg" alt="">
+            <h6 class="text-muted">BA'S BEST CARROT CAKE</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>1,500</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex3.jpg " alt="">
+            <h6 class="text-muted">FLORAL DESIGN CARAMEL MUD CAKE</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>2,999</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex4.jpg " alt="">
+            <h6 class="text-muted">TRIPLE CHOCOLATE WITH VANILLA FROSTING</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>2,999</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex5.jpg" alt="">
+            <h6 class="text-muted">TIER 3 RED VELVET CAKE </h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>3,999</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex6.jpg " alt="">
+            <h6 class="text-muted">SEMI-FONDANT WHITE CHOCOLATE CAKE</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>2,699</i></button>
+        </div>
+    </div>
+
+
+    <!---------------------------------------------------------------------------------->
+    <div class="card mb-3  mt-3 mx-auto shadow-lg p-2 mb-5 bg-body rounded " style="opacity: 0.5;">
+        <h4 class="text-center" style="color: black;">Classic Chocolate Cakes-top sellers </h4>
+    </div>
+    <div class="d-flex flex-row bd-highlight mb-3 flex-wrap">
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex7.jpg" alt="">
+            <h6 class="text-center">Nutty Chocolate Cake</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>450</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex8.jpg " alt="">
+            <h6 class="text-center">Belgian Chocolate Cake</h6>
+
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>500</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex9.jpg" alt="">
+            <h6 class="text-center">Chocolate Peanut Butter Cake</h6>
+
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>299</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex10.jpg " alt="">
+            <h6 class="text-center">Chocolate Fudge Cake</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>450</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex11.jpg " alt="">
+            <h6 class="text-center">Chocolate Truffle Cake</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>300</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/flex12.jpg " alt="">
+            <h6 class="text-center">Chocolate Mocha Bundt Cake</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>399</i></button>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------------------------->
+    <div class="card mb-3  mt-3 mx-auto shadow-lg p-2 mb-5 bg-body rounded " style="opacity: 0.5;">
+        <h4 class="text-center" style="color: black;">Other delights</h4>
+    </div>
+    <div class="d-flex flex-row bd-highlight mb-3 flex-wrap">
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/donut.jpg" alt="">
+            <h6 class="text-muted">DONUTS-starting from</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>199</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/macroon.jpg" alt="">
+            <h6 class="text-muted">MACROONS-starting from</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>185</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/pastry.jpg" alt="">
+            <h6 class="text-muted">PASTRIES-starting from</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>99</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/tart.jpg" alt="">
+            <h6 class="text-muted">TARTS-starting from</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>299</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/cokkie.jpg" alt="">
+            <h6 class="text-muted">COOKIES-starting from</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>145</i></button>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="AllTheImages/cupcake.jpg" alt="">
+            <h6 class="text-muted">CUPCAKES-starting from</h6>
+            <button style='font-size:24px' data-bs-toggle="tooltip" data-bs-placement="right" title="Add to cart"><i
+                    class='fas fa-rupee-sign'>199</i></button>
+        </div>
+    </div>
+    <!-------------------------------------------end of flex------------------------------------>
+
+    <!-----------------------------------------------moments----------------------------------->
+    <div class="card mb-3  mt-3 mx-auto shadow-lg p-2 mb-5 bg-body rounded " style="opacity: 0.5;">
+        <h4 class="text-center" style="color: black;">Happy Clients</h4>
+    </div>
+
+    <div>
+        <div class="row row-cols-1 row-cols-md-2 g-4 " style="margin: 0% 15%;">
+            <div class="col">
+                <div class="card h-60 mx-auto mt-3 mb-3 mx-auto shadow-lg p-3 mb-5 bg-body rounded">
+                    <img src="AllTheImages/moment1.jpg" class="card-img-top p-3 mx-auto" alt="...">
+                    <div class="card-body">
+                        <p class="card_text"><small class="text-muted">Mrs.Manisha Kale</small></p>
+                        <p class="card-text">My daughter got so excited and happy after seeing her favourite unicorn
+                            cake!!You have just replicated our thoughts into real.Thanks a lot for making her day so
+                            special. </p>
+                        <span class="fa fa-star checked " style="color: orange"></span>
+                        <span class="fa fa-star checked" style="color: orange"></span>
+                        <span class="fa fa-star checked" style="color: orange"></span>
+                        <span class="fa fa-star" style="color: orange"></span>
+                        <span class="fa fa-star" style="color: orange"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-60 mx-auto mt-3 mb-3 mx-auto shadow-lg p-3 mb-5 bg-body rounded">
+                    <img src="AllTheImages/moment2.jpg" class="card-img-top p-3" alt="...">
+                    <div class="card-body">
+                        <p class="card_text"><small class="text-muted">Dr.Pooja Sawant</small></p>
+                        <p class="card-text">OMG!! a pinata cake.You guys are really keeping up with the trends.Its
+                            such
+                            a beautiful cake thank you so much for such an amazing cake.keep it up!!</p>
+                        <span class="fa fa-star checked " style="color: orange"></span>
+                        <span class="fa fa-star checked" style="color: orange"></span>
+                        <span class="fa fa-star checked" style="color: orange"></span>
+                        <span class="fa fa-star" style="color: orange"></span>
+                        <span class="fa fa-star" style="color: orange"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------follow--------------------->
+
+    <div class="card mb-3  mt-5 mx-auto shadow-lg p-3 mb-5 bg-body rounded " style="opacity: 0.5;">
+        <h5 class="text-center" style="color: black;">Follow us
+            <i class="fa fa-instagram" style="font-size:24px"></i>
+            <i style="font-size:24px" class="fa">&#xf099;</i>
+            <i class="fa fa-facebook-official" style="font-size:24px"></i>
+        </h5>
+    </div>
+
+    <!-----------------------------footer-------------------->
+
+    <footer class=" pt-5 pb-4 bg-dark">
+        <div class="row text-centre">
+            <div class="col">
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary" href="#">Shop Location</a></li>
+                    <li class="mb-1"><a class="link-secondary" href="#">Terms and conditions</a></li>
+                    <li class="mb-1"><a class="link-secondary" href="#">Privacy policy</a></li>
+                    <li class="mb-1"><a class="link-secondary" href="#"><i class="fab fa-android"></i> Get our
+                            App</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary" href="#">Carrers</a></li>
+                    <li class="mb-1"><a class="link-secondary" href="#">FAQs</a></li>
+                    <li class="mb-1"><a class="link-secondary" href="#">Blog</a></li>
+                    <li class="mb-1"><a class="link-secondary" href="#">Contact Us</a></li>
+                </ul>
+
+            </div>
+            <div class="col">
+                <ul class="list-unstyled text-small">
+                    <li class="mb-1"><a class="link-secondary" href="#">Join our organization</a></li>
+                    <li class="mb-1"><a class="link-secondary" href="#">FAQs</a></li>
+                    <li class="mb-1"><a class="link-secondary" href="#">Blog</a></li>
+                    <li class="mb-1"><a class="link-secondary" href="#">Care guide</a></li>
+                </ul>
+
+            </div>
+
+            <div class="col">
+                <a class="text-light mb-4 text-center">Sign up to our newsletter</a>
+                <div class="row mx-2">
+                    <div class="col-10">
+                        <input type="email" class="bg-dark text-muted" placeholder="Enter your email">
+                    </div>
+                    <div class="col-2">
+                        <a class=""></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
